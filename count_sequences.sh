@@ -5,7 +5,7 @@
 FILE=$1
 
 #Print name of input file
-echo "The number of sequences in  $FILE is"
+echo "---> $FILE is"
 
 #Count number of sequences
 grep -c ">" $FILE
